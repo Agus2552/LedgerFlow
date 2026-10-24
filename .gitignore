@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+.vs/
+TestResults/
+.env
+README-AGUS.md
+*.user
+*.suo
+.env.*
+!.env.example

@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LedgerFlow.Api/LedgerFlow.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/LedgerFlow.SharedKernel/LedgerFlow.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Wallets/">
+    <Project Path="src/Modules/Wallets/Wallets.Domain/Wallets.Domain.csproj" />
+    <Project Path="src/Modules/Wallets/Wallets.Application/Wallets.Application.csproj" />
+    <Project Path="src/Modules/Wallets/Wallets.Infrastructure/Wallets.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Ledger/">
+    <Project Path="src/Modules/Ledger/Ledger.Domain/Ledger.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Transfers/">
+    <Project Path="src/Modules/Transfers/Transfers.Domain/Transfers.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LedgerFlow.IntegrationTests/LedgerFlow.IntegrationTests.csproj" />
+    <Project Path="tests/LedgerFlow.UnitTests/LedgerFlow.UnitTests.csproj" />
+  </Folder>
+</Solution>
